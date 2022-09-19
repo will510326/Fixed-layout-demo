@@ -5,6 +5,7 @@
 
 /* 選單設定 */
 #nav{
+    margin-top: 5px;
     font-size: 20px;
     padding-top: 10px;
 }
@@ -16,4 +17,53 @@
 /* 橫幅設定 */
 #headerpost{
     font-size: 14px;
+}
+
+#headerpost img, #headerpost #lead{
+    float: none;
+}
+
+#headerpost #lead{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: auto;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+#headerpost h2{
+    margin: 10px 0;
+}
+
+#headerpost p{
+    margin-bottom: 20px;
+}
+#headerpost .date{
+    float: left;
+    margin: 10px;
+}
+
+#headerpost .more{
+    float: right;
+    margin: 15px 15px 0 0;
+}
+#headerpost img{
+    width: 620px;
+}
+
+/* 內容設定 */
+.post{
+    width: 280px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.post img{
+    width: 280px;
+}
+
+.post:nth-child(even){
+    margin-right: 0;
 }

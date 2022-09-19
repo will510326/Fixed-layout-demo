@@ -34,11 +34,12 @@ body {
     font-size: 22px;
     float: right;
     text-transform: uppercase;
+    margin-top: 20px;
 }
 
 #nav li {
     float: left;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 #nav li a {
